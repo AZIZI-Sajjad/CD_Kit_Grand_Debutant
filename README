@@ -1,0 +1,470 @@
+D:\CODE\Arduino\CD_Kit_Grand_Debutant>
+D:\CODE\Arduino\CD_Kit_Grand_Debutant>tree D:\CODE\Arduino\CD_Kit_Grand_Debutant
+Structure du dossier pour le volume DATA
+Le numéro de série du volume est 000000B3 804E:60AB
+D:\CODE\ARDUINO\CD_KIT_GRAND_DEBUTANT
+├───Datasheet
+├───Deutsch
+│   ├───Bibliotheken
+│   └───code
+│       ├───Lesson 10 Ultrasonic Sensor Module
+│       │   └───SR04_Example
+│       ├───Lesson 11 Membrane Switch Module
+│       │   └───custom_keypad
+│       ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+│       │   └───DHT11_Example
+│       ├───Lesson 13 Analog Joystick Module
+│       │   └───Analog_Joystick
+│       ├───Lesson 14 IR Receiver Module
+│       │   └───IR_Receiver_Module
+│       ├───Lesson 15 MAX7219 LED Dot Matrix Module
+│       │   └───MAX7219
+│       ├───Lesson 16 GY-521 Module
+│       │   └───MPU-6050
+│       ├───Lesson 17 HC-SR501 PIR Sensor
+│       │   └───HC-SR501
+│       ├───Lesson 18 Water Level Detection Sensor Module
+│       │   └───Water_level
+│       ├───Lesson 19 Real Time Clock Module
+│       │   ├───DS1307_Example
+│       │   └───DS3231_Example
+│       ├───Lesson 20 Sound Sensor Module
+│       │   ├───analog_signal_output
+│       │   ├───digital_signal_output
+│       │   └───Sound_Sensor_Example
+│       ├───Lesson 21 RC522 RFID Module
+│       │   └───MF-RC522_RFID
+│       ├───Lesson 22 LCD Display
+│       │   └───HelloWorld
+│       ├───Lesson 23 Thermometer
+│       │   └───Thermometer
+│       ├───Lesson 24 Eight LED with 74HC595
+│       │   └───Eight_LED_with_74HC595_Flash_LED
+│       ├───Lesson 25 The Serial Monitor
+│       │   └───The_Serial_Monitor
+│       ├───Lesson 26 Photocell
+│       │   └───Photocell
+│       ├───Lesson 27 74HC595 And Segment Display
+│       │   └───_75hc
+│       ├───Lesson 28 Four Digital Seven Segment Display
+│       │   └───Four_Digital
+│       ├───Lesson 29 DC Motors
+│       │   └───DC_Motor
+│       ├───Lesson 30 Relay
+│       │   └───Relay
+│       ├───Lesson 31 Stepper Motor
+│       │   └───stepper_Example
+│       ├───Lesson 32 Controlling Stepper Motor With Remote
+│       │   └───With_Remote
+│       ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+│       │   └───With_Encoder
+│       ├───Lesson 4 RGB LED
+│       │   └───RGB_LED
+│       ├───Lesson 5 Digital Inputs
+│       │   └───Digital_Inputs
+│       ├───Lesson 6 Making Sounds
+│       │   └───active
+│       ├───Lesson 7 Passive Buzzer
+│       │   └───passive_buzzer
+│       ├───Lesson 8 Ball Switch
+│       │   └───Ball_Switch
+│       └───Lesson 9 Servo
+│           └───servo
+├───English
+│   ├───code
+│   │   ├───Lesson 10 Ultrasonic Sensor Module
+│   │   │   └───SR04_Example
+│   │   ├───Lesson 11 Membrane Switch Module
+│   │   │   └───custom_keypad
+│   │   ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+│   │   │   └───DHT11_Example
+│   │   ├───Lesson 13 Analog Joystick Module
+│   │   │   └───Analog_Joystick
+│   │   ├───Lesson 14 IR Receiver Module
+│   │   │   └───IR_Receiver_Module
+│   │   ├───Lesson 15 MAX7219 LED Dot Matrix Module
+│   │   │   └───MAX7219
+│   │   ├───Lesson 16 GY-521 Module
+│   │   │   └───MPU-6050
+│   │   ├───Lesson 17 HC-SR501 PIR Sensor
+│   │   │   └───HC-SR501
+│   │   ├───Lesson 18 Water Level Detection Sensor Module
+│   │   │   └───Water_level
+│   │   ├───Lesson 19 Real Time Clock Module
+│   │   │   ├───DS1307_Example
+│   │   │   └───DS3231_Example
+│   │   ├───Lesson 20 Sound Sensor Module
+│   │   │   ├───analog_signal_output
+│   │   │   ├───digital_signal_output
+│   │   │   └───Sound_Sensor_Example
+│   │   ├───Lesson 21 RC522 RFID Module
+│   │   │   └───MF-RC522_RFID
+│   │   ├───Lesson 22 LCD Display
+│   │   │   └───HelloWorld
+│   │   ├───Lesson 23 Thermometer
+│   │   │   └───Thermometer
+│   │   ├───Lesson 24 Eight LED with 74HC595
+│   │   │   └───Eight_LED_with_74HC595_Flash_LED
+│   │   ├───Lesson 25 The Serial Monitor
+│   │   │   └───The_Serial_Monitor
+│   │   ├───Lesson 26 Photocell
+│   │   │   └───Photocell
+│   │   ├───Lesson 27 74HC595 And Segment Display
+│   │   │   └───_75hc
+│   │   ├───Lesson 28 Four Digital Seven Segment Display
+│   │   │   └───Four_Digital
+│   │   ├───Lesson 29 DC Motors
+│   │   │   └───DC_Motor
+│   │   ├───Lesson 30 Relay
+│   │   │   └───Relay
+│   │   ├───Lesson 31 Stepper Motor
+│   │   │   └───stepper_Example
+│   │   ├───Lesson 32 Controlling Stepper Motor With Remote
+│   │   │   └───With_Remote
+│   │   ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+│   │   │   └───With_Encoder
+│   │   ├───Lesson 4 RGB LED
+│   │   │   └───RGB_LED
+│   │   ├───Lesson 5 Digital Inputs
+│   │   │   └───Digital_Inputs
+│   │   ├───Lesson 6 Making Sounds
+│   │   │   └───active
+│   │   ├───Lesson 7 Passive Buzzer
+│   │   │   └───passive_buzzer
+│   │   ├───Lesson 8 Ball Switch
+│   │   │   └───Ball_Switch
+│   │   └───Lesson 9 Servo
+│   │       └───servo
+│   └───Libraries
+├───Espanol
+│   ├───code
+│   │   ├───Lesson 10 Ultrasonic Sensor Module
+│   │   │   └───SR04_Example
+│   │   ├───Lesson 11 Membrane Switch Module
+│   │   │   └───custom_keypad
+│   │   ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+│   │   │   └───DHT11_Example
+│   │   ├───Lesson 13 Analog Joystick Module
+│   │   │   └───Analog_Joystick
+│   │   ├───Lesson 14 IR Receiver Module
+│   │   │   └───IR_Receiver_Module
+│   │   ├───Lesson 15 MAX7219 LED Dot Matrix Module
+│   │   │   └───MAX7219
+│   │   ├───Lesson 16 GY-521 Module
+│   │   │   └───MPU-6050
+│   │   ├───Lesson 17 HC-SR501 PIR Sensor
+│   │   │   └───HC-SR501
+│   │   ├───Lesson 18 Water Level Detection Sensor Module
+│   │   │   └───Water_level
+│   │   ├───Lesson 19 Real Time Clock Module
+│   │   │   ├───DS1307_Example
+│   │   │   └───DS3231_Example
+│   │   ├───Lesson 20 Sound Sensor Module
+│   │   │   ├───analog_signal_output
+│   │   │   ├───digital_signal_output
+│   │   │   └───Sound_Sensor_Example
+│   │   ├───Lesson 21 RC522 RFID Module
+│   │   │   └───MF-RC522_RFID
+│   │   ├───Lesson 22 LCD Display
+│   │   │   └───HelloWorld
+│   │   ├───Lesson 23 Thermometer
+│   │   │   └───Thermometer
+│   │   ├───Lesson 24 Eight LED with 74HC595
+│   │   │   └───Eight_LED_with_74HC595_Flash_LED
+│   │   ├───Lesson 25 The Serial Monitor
+│   │   │   └───The_Serial_Monitor
+│   │   ├───Lesson 26 Photocell
+│   │   │   └───Photocell
+│   │   ├───Lesson 27 74HC595 And Segment Display
+│   │   │   └───_75hc
+│   │   ├───Lesson 28 Four Digital Seven Segment Display
+│   │   │   └───Four_Digital
+│   │   ├───Lesson 29 DC Motors
+│   │   │   └───DC_Motor
+│   │   ├───Lesson 30 Relay
+│   │   │   └───Relay
+│   │   ├───Lesson 31 Stepper Motor
+│   │   │   └───stepper_Example
+│   │   ├───Lesson 32 Controlling Stepper Motor With Remote
+│   │   │   └───With_Remote
+│   │   ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+│   │   │   └───With_Encoder
+│   │   ├───Lesson 4 RGB LED
+│   │   │   └───RGB_LED
+│   │   ├───Lesson 5 Digital Inputs
+│   │   │   └───Digital_Inputs
+│   │   ├───Lesson 6 Making Sounds
+│   │   │   └───active
+│   │   ├───Lesson 7 Passive Buzzer
+│   │   │   └───passive_buzzer
+│   │   ├───Lesson 8 Ball Switch
+│   │   │   └───Ball_Switch
+│   │   └───Lesson 9 Servo
+│   │       └───servo
+│   └───Libraries
+├───Français
+│   ├───code
+│   │   ├───Lesson 10 Ultrasonic Sensor Module
+│   │   │   └───SR04_Example
+│   │   ├───Lesson 11 Membrane Switch Module
+│   │   │   └───custom_keypad
+│   │   ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+│   │   │   └───DHT11_Example
+│   │   ├───Lesson 13 Analog Joystick Module
+│   │   │   └───Analog_Joystick
+│   │   ├───Lesson 14 IR Receiver Module
+│   │   │   └───IR_Receiver_Module
+│   │   ├───Lesson 15 MAX7219 LED Dot Matrix Module
+│   │   │   └───MAX7219
+│   │   ├───Lesson 16 GY-521 Module
+│   │   │   └───MPU-6050
+│   │   ├───Lesson 17 HC-SR501 PIR Sensor
+│   │   │   └───HC-SR501
+│   │   ├───Lesson 18 Water Level Detection Sensor Module
+│   │   │   └───Water_level
+│   │   ├───Lesson 19 Real Time Clock Module
+│   │   │   ├───DS1307_Example
+│   │   │   └───DS3231_Example
+│   │   ├───Lesson 20 Sound Sensor Module
+│   │   │   ├───analog_signal_output
+│   │   │   ├───digital_signal_output
+│   │   │   └───Sound_Sensor_Example
+│   │   ├───Lesson 21 RC522 RFID Module
+│   │   │   └───MF-RC522_RFID
+│   │   ├───Lesson 22 LCD Display
+│   │   │   └───HelloWorld
+│   │   ├───Lesson 23 Thermometer
+│   │   │   └───Thermometer
+│   │   ├───Lesson 24 Eight LED with 74HC595
+│   │   │   └───Eight_LED_with_74HC595_Flash_LED
+│   │   ├───Lesson 25 The Serial Monitor
+│   │   │   └───The_Serial_Monitor
+│   │   ├───Lesson 26 Photocell
+│   │   │   └───Photocell
+│   │   ├───Lesson 27 74HC595 And Segment Display
+│   │   │   └───_75hc
+│   │   ├───Lesson 28 Four Digital Seven Segment Display
+│   │   │   └───Four_Digital
+│   │   ├───Lesson 29 DC Motors
+│   │   │   └───DC_Motor
+│   │   ├───Lesson 30 Relay
+│   │   │   └───Relay
+│   │   ├───Lesson 31 Stepper Motor
+│   │   │   └───stepper_Example
+│   │   ├───Lesson 32 Controlling Stepper Motor With Remote
+│   │   │   └───With_Remote
+│   │   ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+│   │   │   └───With_Encoder
+│   │   ├───Lesson 4 RGB LED
+│   │   │   └───RGB_LED
+│   │   ├───Lesson 5 Digital Inputs
+│   │   │   └───Digital_Inputs
+│   │   ├───Lesson 6 Making Sounds
+│   │   │   └───active
+│   │   ├───Lesson 7 Passive Buzzer
+│   │   │   └───passive_buzzer
+│   │   ├───Lesson 8 Ball Switch
+│   │   │   └───Ball_Switch
+│   │   └───Lesson 9 Servo
+│   │       └───servo
+│   └───Libraries
+├───Italiana
+│   ├───code
+│   │   ├───Lesson 10 Ultrasonic Sensor Module
+│   │   │   └───SR04_Example
+│   │   ├───Lesson 11 Membrane Switch Module
+│   │   │   └───custom_keypad
+│   │   ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+│   │   │   └───DHT11_Example
+│   │   ├───Lesson 13 Analog Joystick Module
+│   │   │   └───Analog_Joystick
+│   │   ├───Lesson 14 IR Receiver Module
+│   │   │   └───IR_Receiver_Module
+│   │   ├───Lesson 15 MAX7219 LED Dot Matrix Module
+│   │   │   └───MAX7219
+│   │   ├───Lesson 16 GY-521 Module
+│   │   │   └───MPU-6050
+│   │   ├───Lesson 17 HC-SR501 PIR Sensor
+│   │   │   └───HC-SR501
+│   │   ├───Lesson 18 Water Level Detection Sensor Module
+│   │   │   └───Water_level
+│   │   ├───Lesson 19 Real Time Clock Module
+│   │   │   ├───DS1307_Example
+│   │   │   └───DS3231_Example
+│   │   ├───Lesson 20 Sound Sensor Module
+│   │   │   ├───analog_signal_output
+│   │   │   ├───digital_signal_output
+│   │   │   └───Sound_Sensor_Example
+│   │   ├───Lesson 21 RC522 RFID Module
+│   │   │   └───MF-RC522_RFID
+│   │   ├───Lesson 22 LCD Display
+│   │   │   └───HelloWorld
+│   │   ├───Lesson 23 Thermometer
+│   │   │   └───Thermometer
+│   │   ├───Lesson 24 Eight LED with 74HC595
+│   │   │   └───Eight_LED_with_74HC595_Flash_LED
+│   │   ├───Lesson 25 The Serial Monitor
+│   │   │   └───The_Serial_Monitor
+│   │   ├───Lesson 26 Photocell
+│   │   │   └───Photocell
+│   │   ├───Lesson 27 74HC595 And Segment Display
+│   │   │   └───_75hc
+│   │   ├───Lesson 28 Four Digital Seven Segment Display
+│   │   │   └───Four_Digital
+│   │   ├───Lesson 29 DC Motors
+│   │   │   └───DC_Motor
+│   │   ├───Lesson 30 Relay
+│   │   │   └───Relay
+│   │   ├───Lesson 31 Stepper Motor
+│   │   │   └───stepper_Example
+│   │   ├───Lesson 32 Controlling Stepper Motor With Remote
+│   │   │   └───With_Remote
+│   │   ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+│   │   │   └───With_Encoder
+│   │   ├───Lesson 4 RGB LED
+│   │   │   └───RGB_LED
+│   │   ├───Lesson 5 Digital Inputs
+│   │   │   └───Digital_Inputs
+│   │   ├───Lesson 6 Making Sounds
+│   │   │   └───active
+│   │   ├───Lesson 7 Passive Buzzer
+│   │   │   └───passive_buzzer
+│   │   ├───Lesson 8 Ball Switch
+│   │   │   └───Ball_Switch
+│   │   └───Lesson 9 Servo
+│   │       └───servo
+│   └───Libraries
+├───Pусский
+│   ├───code
+│   │   ├───Lesson 10 Ultrasonic Sensor Module
+│   │   │   └───SR04_Example
+│   │   ├───Lesson 11 Membrane Switch Module
+│   │   │   └───custom_keypad
+│   │   ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+│   │   │   └───DHT11_Example
+│   │   ├───Lesson 13 Analog Joystick Module
+│   │   │   └───Analog_Joystick
+│   │   ├───Lesson 14 IR Receiver Module
+│   │   │   └───IR_Receiver_Module
+│   │   ├───Lesson 15 MAX7219 LED Dot Matrix Module
+│   │   │   └───MAX7219
+│   │   ├───Lesson 16 GY-521 Module
+│   │   │   └───MPU-6050
+│   │   ├───Lesson 17 HC-SR501 PIR Sensor
+│   │   │   └───HC-SR501
+│   │   ├───Lesson 18 Water Level Detection Sensor Module
+│   │   │   └───Water_level
+│   │   ├───Lesson 19 Real Time Clock Module
+│   │   │   ├───DS1307_Example
+│   │   │   └───DS3231_Example
+│   │   ├───Lesson 20 Sound Sensor Module
+│   │   │   ├───analog_signal_output
+│   │   │   ├───digital_signal_output
+│   │   │   └───Sound_Sensor_Example
+│   │   ├───Lesson 21 RC522 RFID Module
+│   │   │   └───MF-RC522_RFID
+│   │   ├───Lesson 22 LCD Display
+│   │   │   └───HelloWorld
+│   │   ├───Lesson 23 Thermometer
+│   │   │   └───Thermometer
+│   │   ├───Lesson 24 Eight LED with 74HC595
+│   │   │   └───Eight_LED_with_74HC595_Flash_LED
+│   │   ├───Lesson 25 The Serial Monitor
+│   │   │   └───The_Serial_Monitor
+│   │   ├───Lesson 26 Photocell
+│   │   │   └───Photocell
+│   │   ├───Lesson 27 74HC595 And Segment Display
+│   │   │   └───_75hc
+│   │   ├───Lesson 28 Four Digital Seven Segment Display
+│   │   │   └───Four_Digital
+│   │   ├───Lesson 29 DC Motors
+│   │   │   └───DC_Motor
+│   │   ├───Lesson 30 Relay
+│   │   │   └───Relay
+│   │   ├───Lesson 31 Stepper Motor
+│   │   │   └───stepper_Example
+│   │   ├───Lesson 32 Controlling Stepper Motor With Remote
+│   │   │   └───With_Remote
+│   │   ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+│   │   │   └───With_Encoder
+│   │   ├───Lesson 4 RGB LED
+│   │   │   └───RGB_LED
+│   │   ├───Lesson 5 Digital Inputs
+│   │   │   └───Digital_Inputs
+│   │   ├───Lesson 6 Making Sounds
+│   │   │   └───active
+│   │   ├───Lesson 7 Passive Buzzer
+│   │   │   └───passive_buzzer
+│   │   ├───Lesson 8 Ball Switch
+│   │   │   └───Ball_Switch
+│   │   └───Lesson 9 Servo
+│   │       └───servo
+│   └───Libraries
+└───日本語
+    ├───code
+    │   ├───Lesson 10 Ultrasonic Sensor Module
+    │   │   └───SR04_Example
+    │   ├───Lesson 11 Membrane Switch Module
+    │   │   └───custom_keypad
+    │   ├───Lesson 12 DHT11 Temperature and Humidity Sensor
+    │   │   └───DHT11_Example
+    │   ├───Lesson 13 Analog Joystick Module
+    │   │   └───Analog_Joystick
+    │   ├───Lesson 14 IR Receiver Module
+    │   │   └───IR_Receiver_Module
+    │   ├───Lesson 15 MAX7219 LED Dot Matrix Module
+    │   │   └───MAX7219
+    │   ├───Lesson 16 GY-521 Module
+    │   │   └───MPU-6050
+    │   ├───Lesson 17 HC-SR501 PIR Sensor
+    │   │   └───HC-SR501
+    │   ├───Lesson 18 Water Level Detection Sensor Module
+    │   │   └───Water_level
+    │   ├───Lesson 19 Real Time Clock Module
+    │   │   ├───DS1307_Example
+    │   │   └───DS3231_Example
+    │   ├───Lesson 20 Sound Sensor Module
+    │   │   ├───analog_signal_output
+    │   │   ├───digital_signal_output
+    │   │   └───Sound_Sensor_Example
+    │   ├───Lesson 21 RC522 RFID Module
+    │   │   └───MF-RC522_RFID
+    │   ├───Lesson 22 LCD Display
+    │   │   └───HelloWorld
+    │   ├───Lesson 23 Thermometer
+    │   │   └───Thermometer
+    │   ├───Lesson 24 Eight LED with 74HC595
+    │   │   └───Eight_LED_with_74HC595_Flash_LED
+    │   ├───Lesson 25 The Serial Monitor
+    │   │   └───The_Serial_Monitor
+    │   ├───Lesson 26 Photocell
+    │   │   └───Photocell
+    │   ├───Lesson 27 74HC595 And Segment Display
+    │   │   └───_75hc
+    │   ├───Lesson 28 Four Digital Seven Segment Display
+    │   │   └───Four_Digital
+    │   ├───Lesson 29 DC Motors
+    │   │   └───DC_Motor
+    │   ├───Lesson 30 Relay
+    │   │   └───Relay
+    │   ├───Lesson 31 Stepper Motor
+    │   │   └───stepper_Example
+    │   ├───Lesson 32 Controlling Stepper Motor With Remote
+    │   │   └───With_Remote
+    │   ├───Lesson 33 Controlling Stepper Motor With Rotary Encoder
+    │   │   └───With_Encoder
+    │   ├───Lesson 4 RGB LED
+    │   │   └───RGB_LED
+    │   ├───Lesson 5 Digital Inputs
+    │   │   └───Digital_Inputs
+    │   ├───Lesson 6 Making Sounds
+    │   │   └───active
+    │   ├───Lesson 7 Passive Buzzer
+    │   │   └───passive_buzzer
+    │   ├───Lesson 8 Ball Switch
+    │   │   └───Ball_Switch
+    │   └───Lesson 9 Servo
+    │       └───servo
+    └───Libraries
+
+D:\CODE\Arduino\CD_Kit_Grand_Debutant>
